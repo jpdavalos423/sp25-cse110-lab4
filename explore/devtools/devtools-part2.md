@@ -1,0 +1,2 @@
+1. The bug is that .getElementByID always returns a string. Because of this, the + is not performing arithmetic but rather string concatnation
+2. A quick fix is to type cast both num1 and num2 to Number before the + operation
